@@ -1,0 +1,27 @@
+Ex 1:
+Q1.
+1.
+- var : the keyword that tells JavaScript you're declaring a variable.
+- const: that the identifier can't be reassigned.
+2.
+Var vs let:
+- Var variables are hoisted to the top of its scope and initialized with a valie of undefined.
+- Var declarations are globally or function scoped.
+- Unlike var which is initialized as undefined, the let keyword is not initialized.
+- Var can be updated and re-declared.
+- let can be update but can't re-declared.
+
+3.
+Let vs const:
+-the difference is that once you’ve assigned a value to a variable using const, you can’t reassign it to a new value.
+-let can be updated but can't be re-declared.
+-const variables can neither be updated but nor re-declared.
+4. When we need to declare variables.
+
+Ex 2:
+1. What is Boolean?
++Boolean is a primitive data type commonly used in computer programming languages. 
++By definition, a boolean has two possible values: true or false .
+
+2. What results in Boolean?
+Always show the result is true or false
