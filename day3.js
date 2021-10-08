@@ -87,7 +87,7 @@
 // let i = 0
 // for( ; i < arr.length; i++){
 //     if (x == arr[i]){
-//         alert( `${x} + is FOUND in my array at index 3  `);
+//         alert( `${x} + is FOUND in my array at `  + arr.indexOf(x))   ;
 //         break;
 //     } else {
 //         alert( ` ${x}+  is NOT found in my array` );
