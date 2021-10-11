@@ -1,148 +1,68 @@
-// Bai 3a
-// for ( let x = 0; x < 7; x++){
-//     console.log(x);
-// }
+// bai 1
+{
+let str_input = 'program';
+let reverse_str = '';
 
-// Bai 3b
-// let n = prompt(' Enter a number');
-// for (let x = 0; x < n ; x++){
-//     console.log(x);
-// }
+for (let i= str_input.length -1; i >= 0; i--){
+  reverse_str += str_input[i];
+}
 
-// Bai 3c
-//  let n = prompt(' Enter a number');
-// for (let x = 3; x < n ; x++){
-//     console.log(x);
-// }
-
-
-//bai3d
-    
-// let n = prompt('Enter n');
-// let c = prompt('Enter c');
-// for (; c < n; c++){
-//     console.log(c);
-// }
-
-//bai3e
+console.log(reverse_str);
  
-//    let n = Number(prompt(' Enter n'));
-//    let c = Number(prompt(' Enter c'));
-//    for(; c < n; c += 3){
-//        console.log(c);
-//    }
-
-//bai3f
-
-//   let n = Number(prompt('Enter n'));
-//   let c = Number(prompt(' Enter c '));
-//   let s = Number(prompt('Enter  s'));
-//   for(; c<n ; c+=s ){
-//       console.log(c);
-//       }
-
-//bai4
-
-// let n= Number(prompt('Enter a number'));
-// let factorial = 1;
-// let c =1;
-// for(; c <= n; c++){
-//     factorial = factorial*c;
-// }
-// console.log("The factorial of "+ n + " is " + factorial);
-// alert("The factorial of "+ n + " is " + factorial);
-
-// bai 5
-// let age = prompt(' How old are you');
-// if (age < 14){
-//     console.log("You are not old enough to view this content");
-// } 
-// else {
-//     console.log ( "Enjoy ");
-// }
-    
-// bai 6
-// let x = prompt(' Enter a number ');
-// if ( x > 4,5){
-//     alert(`Higher half of 9`);
-// }
-// else{
-//     alert('Lower half of 9');
+}
 
 
-// bai 7
-// let n = prompt(' n=');
-// let x = prompt(' x= ');
-// if(x<n/2){
-//     alert(' ${x} is lower half of ${n}');
-// }
-// else{
-//     alert(` ${x} is higher half of ${n}`);
-// }
+// bai 2
 
-// bai 8
-// let x = prompt(" x =");
-// if (x%2 == 0){
-//     alert(` ${x} is an even number `);
-// }
-// else {
-//     alert(` ${x} is an odd number`);
-// }
+const noti = ' this is Test'
 
-// bai 9a
-// let x = 6;
-// for ( let y = 0; y < x/2; y++){
-//     console.log("L");
-// }
-// for ( let z = 0; z< x/2; z++){
-//     console.log("H");
-// } 
+const capitalize = str => {
+    if (str) return ''
+    return str.charAt(0).toUpperCase() +
+    str.slice(1)
+}
 
-// bai 9b
-// let x = Number(prompt(" Enter the total number of L's and H's? "));
-// let y=0;
-// for ( ; y < x/2; y++)
-//     console.log('L');
 
-// for (let z = 0; z < x - y; z++)
-//     console.log('H');
 
-// bai 9c
-// let number = 8;
-// for(x=0 ; x < number; x++)
-// if (x % 2==0)
-//     console.log(0);
+{bai3
+let dayso = [1,2,3,3,4,5,4,4,4,4,5,5];
+let  update= new Set(dayso);
+console.log(update);
+}
 
-// else 
-//     console.log(1);
 
-// bai 9d
-// let x = Number(prompt("Enter the total number of 1's and 0's? "));
-// for( y = 0; y< x; y++)
-// if(y%2==0){
-//     console.log(0);
-// } else {
-//     console.log(1);
-// }
+// Bai 4
+let person = [{
+    name: "Dung",
+    age: 18,
+salary: '30000$',
+position: 'Boss',},
 
-// Bai 10
-// let x = prompt ('Your weight in kg?')
-// let y = prompt ('Your height in cm?')
-// let z = x/((y/100)*(y/100))
-// alert ('Your BMI is ' + z)
+{name: 'Duong',
+age: 19,
+salary: '25000$',
+position:'Manager',},
 
-// if (z < 16)
-// {alert (' You are severely underweight');}
+{name: 'Ton',
+age: 19,
+salary: '10000$',
+position: 'Staff',},
 
-// else if (z < 18.5)
-// {alert ('You are underweight');}
+ ] ;
 
-// else if (z < 25)
-// {alert ('You are normal');}
+console.log(person);
 
-// else if (z < 30)
-// {alert ('You are overweight');}
+let newPerson = prompt('Nhap ten nguoi moi');
+person.push({
+    newPerson,
+    age: 19,
+  salary: '10000$',
+  position: 'Teacher',
+});
 
-// else
-// {alert ('You are obese');}
+
+let  ask = prompt('age');
+let ask2 = prompt('salary');
+let ask3 = prompt('position');
+person['ask', 'ask 2', 'ask 3'] = updateProfile;
 
