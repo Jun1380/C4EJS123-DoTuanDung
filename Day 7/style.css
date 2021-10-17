@@ -1,0 +1,41 @@
+
+bai1 p {
+    color: red;
+
+}
+
+
+bai2 #Secondtag {
+background-color:  green;
+}
+
+
+bai3 .lyrics {
+    font-size : 24px
+}
+
+
+bai4 div{
+    font-size: 3em;
+    background: wheat
+  }
+
+  bai5 [id='div2']{
+             color: blue;
+             background: white;}
+        [id='div1']{
+             background: white
+      }
+  
+
+bai6 #a1  {
+    color: yellow
+}
+
+bai9  .item span{
+  font-size: 18px;
+}
+.item > div > span
+{
+  font-style: italic;
+}
